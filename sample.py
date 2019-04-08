@@ -1,1 +1,1 @@
-print "Hello World in world"
+print "Hello World in wor"
