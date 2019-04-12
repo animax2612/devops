@@ -7,9 +7,9 @@ from selenium.webdriver.common.keys import Keys
 
 browser = webdriver.Firefox()
 browser.get('http://www.google.com')
-
+WebDriverWait(driver, 10)
 search = browser.find_element_by_name('q')
 search.send_keys("google search through python")
 search.send_keys(Keys.RETURN) # hit return after you enter search text
-time.sleep(5) # sleep for 5 seconds so you can see the results
+time.sleep(50) # sleep for 5 seconds so you can see the results
 browser.quit()
