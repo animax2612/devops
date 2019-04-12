@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 
 browser = webdriver.Firefox()
-WebDriverWait(driver, 20)
+time.sleep(30)
 
 browser.get('http://www.google.com')
 WebDriverWait(driver, 10)
